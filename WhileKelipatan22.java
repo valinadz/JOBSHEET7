@@ -21,10 +21,13 @@ public class WhileKelipatan22 {
             }
             i++;
         }
+        if (counter > 0 ) {
             rataRata = (double) jumlah / counter;
             System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
             System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, jumlah);
             System.out.printf("Rata-rata bilangan kelipatan %d dari 1 sampai 50 adalah %2f\n", kelipatan, rataRata);
+        } else {
             System.out.printf("Tidak ada bilangan kelipatan %d dari 1 sampai 50\n", kelipatan);
         }
     }
+}
