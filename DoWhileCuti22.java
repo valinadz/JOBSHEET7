@@ -25,6 +25,9 @@ public class DoWhileCuti22 {
                 } else {
                     System.out.println("Jumlah hari yang anda minta melebihi jatah cuti. Silahkan masukkan jumlah hari yang sesuai.");
                 }
+            } else if (konfirmasi.equalsIgnoreCase("t")) {
+                System.out.println("Anda memilih untuk tidak mengambil cuti. Terimakasih atas konfirmasinya.");
+                break;
             }
         } while (jatahCuti > 0);
     }
